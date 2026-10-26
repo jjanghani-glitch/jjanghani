@@ -1,20 +1,17 @@
 baseURL = 'https://jjanghani-glitch.github.io/jjanghani/'
 languageCode = 'ko-kr'
-title = '안녕하세요 회사 홈페이지 입니다'
+title = 'Smile Log'
 theme = 'papermod'
 
 [params]
   env = "production"
-  description = "회사 홈페이지 입니다-1."
+  description = "기술 및 인프라 기록 블로그"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
 
-  [params.homeInfoParams]
-    Title = "👋 안녕하세요!"
-    Content = "회사 홈페이지 입니다-2."
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/jjanghani-glitch"
-
+# 상단 메뉴 구성 (smilelog.kr 스타일)
 [[menu.main]]
   identifier = "posts"
   name = "포스트"
@@ -22,7 +19,19 @@ theme = 'papermod'
   weight = 10
 
 [[menu.main]]
+  identifier = "categories"
+  name = "카테고리"
+  url = "/categories/"
+  weight = 20
+
+[[menu.main]]
   identifier = "tags"
   name = "태그"
   url = "/tags/"
-  weight = 20
+  weight = 30
+
+[[menu.main]]
+  identifier = "search"
+  name = "검색"
+  url = "/search/"
+  weight = 40
