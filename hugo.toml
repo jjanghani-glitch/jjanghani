@@ -1,48 +1,20 @@
 baseURL = 'https://jjanghani-glitch.github.io/jjanghani/'
 languageCode = 'ko-kr'
-title = '나만의 기술 블로그'
+title = '안녕하세요 회사 홈페이지 입니다'
 theme = 'papermod'
 
 [params]
-  defaultTheme = 'auto'
-  showToc = true
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
-
-# 메인 화면 대문 설정
-[params.homeInfoParams]
-  Title = "👋 안녕하세요!"
-  Content = "Hugo와 GitHub Pages로 만든 나만의 블로그입니다."
-
-# 상단 메뉴바 설정
-[[menu.main]]
-  name = "게시글"
-  url = "/posts/"
-  weight = 10
-
-[[menu.main]]
-  name = "태그"
-  url = "/tags/"
-  weight = 20
-
-[params]
   env = "production"
-  title = "나만의 기술 블로그"
-  description = "Hugo와 GitHub Pages로 만든 블로그입니다."
-  
-  # 메인 화면을 프로필 홈페이지 스타일로 설정
+  description = "회사 홈페이지 입니다-1."
+
   [params.homeInfoParams]
     Title = "👋 안녕하세요!"
-    Content = "IT 인프라 및 시스템 관리를 공유하는 블로그입니다."
+    Content = "회사 홈페이지 입니다-2."
 
-  # 프로필 아래 소셜/링크 버튼 추가
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/jjanghani-glitch"
 
-# 상단 메뉴바 구성
 [[menu.main]]
   identifier = "posts"
   name = "포스트"
