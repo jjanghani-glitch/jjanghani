@@ -26,3 +26,31 @@ theme = 'papermod'
   name = "태그"
   url = "/tags/"
   weight = 20
+
+[params]
+  env = "production"
+  title = "나만의 기술 블로그"
+  description = "Hugo와 GitHub Pages로 만든 블로그입니다."
+  
+  # 메인 화면을 프로필 홈페이지 스타일로 설정
+  [params.homeInfoParams]
+    Title = "👋 안녕하세요!"
+    Content = "IT 인프라 및 시스템 관리를 공유하는 블로그입니다."
+
+  # 프로필 아래 소셜/링크 버튼 추가
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jjanghani-glitch"
+
+# 상단 메뉴바 구성
+[[menu.main]]
+  identifier = "posts"
+  name = "포스트"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "태그"
+  url = "/tags/"
+  weight = 20
