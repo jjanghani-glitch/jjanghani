@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>나만의 기술 블로그</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/jjanghani/</link>
     <description>Recent content on 나만의 기술 블로그</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 26 Oct 2026 14:19:24 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/jjanghani/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello new new World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>http://localhost:1313/jjanghani/posts/hello-world/</link>
       <pubDate>Mon, 26 Oct 2026 14:19:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>http://localhost:1313/jjanghani/posts/hello-world/</guid>
       <description>&lt;p&gt;12345&lt;/p&gt;</description>
     </item>
   </channel>
