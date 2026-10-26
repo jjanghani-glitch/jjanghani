@@ -1,6 +1,6 @@
 baseURL = 'https://jjanghani-glitch.github.io/jjanghani/'
 languageCode = 'ko-kr'
-title = 'Smile Log'
+title = 'oldway'
 theme = 'papermod'
 
 [params]
